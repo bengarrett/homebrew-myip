@@ -19,6 +19,6 @@ class HomebrewMyip < Formula
   end
 
   def install
-    bin.install "homebrew-myip"
+    bin.install "myip"
   end
 end

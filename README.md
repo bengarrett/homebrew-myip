@@ -1,6 +1,17 @@
-## [Homebrew](https://brew.sh/) MyIP tap
+## MyIP macOS tap
 
 - 🍺 [MyIP](https://github.com/bengarrett/myip)
+- [Homebrew](https://brew.sh/)
 
 ### Usage
 
+```sh
+# install
+brew install bengarrett/homebrew-myip/myip
+
+# uninstall
+brew uninstall myip
+
+# remove the repo (tap)
+brew untap bengarrett/homebrew-myip
+```

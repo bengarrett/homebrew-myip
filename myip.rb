@@ -5,21 +5,17 @@
 class Myip < Formula
   desc "Determine your Internet-facing IP address and location from multiple sources."
   homepage "https://github.com/bengarrett/myip/"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
-  bottle :unneeded
+  depends_on :macos
 
-  if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/bengarrett/homebrew-myip/releases/download/v1.0.0/homebrew-myip_macOS_Intel.tar.gz"
-    sha256 "532f533bbd2ce2544eeb6e5e3c05d00ed22ec25d17fc5ce7257ef2f66ee9e281"
-  end
-  if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/bengarrett/homebrew-myip/releases/download/v1.0.0/homebrew-myip_macOS_M-series.tar.gz"
-    sha256 "f6a9828ade4b2e84638a799ffd8340b0ea3d1fc51669e335e4a4783d4b0e1672"
-  end
+  on_macos do
+    url "https://github.com/bengarrett/homebrew-myip/releases/download/v1.1.0/homebrew-myip_macOS_all.tar.gz"
+    sha256 "ef8c876ae8c8f4564ddc2d37ba85d7db654a2a61a7cf505b1b07f24ec85076c9"
 
-  def install
-    bin.install "myip"
+    def install
+      bin.install "myip"
+    end
   end
 
   test do

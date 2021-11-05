@@ -11,7 +11,7 @@ class Myip < Formula
 
   on_macos do
     url "https://github.com/bengarrett/homebrew-myip/releases/download/v1.1.0/homebrew-myip_macOS_all.tar.gz"
-    sha256 "ef8c876ae8c8f4564ddc2d37ba85d7db654a2a61a7cf505b1b07f24ec85076c9"
+    sha256 "de1e0395985dc5325e2310dff080e0376451681d701bb19af9d0c6a9907b69bc"
 
     def install
       bin.install "myip"

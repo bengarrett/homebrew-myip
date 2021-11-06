@@ -7,7 +7,7 @@
 
 ```sh
 # install
-brew install bengarrett/homebrew-myip/myip
+brew install bengarrett/myip/myip
 
 # uninstall
 brew uninstall myip

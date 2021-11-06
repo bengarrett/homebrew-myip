@@ -13,5 +13,5 @@ brew install bengarrett/myip/myip
 brew uninstall myip
 
 # remove the repo (tap)
-brew untap bengarrett/homebrew-myip
+brew untap bengarrett/myip
 ```

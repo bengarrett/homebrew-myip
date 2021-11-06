@@ -1,7 +1,7 @@
-## MyIP macOS tap
+## MyIP Homebrew tap
 
 - 🍺 [MyIP](https://github.com/bengarrett/myip)
-- [Homebrew](https://brew.sh/)
+- 🍻 [Homebrew](https://brew.sh/)
 
 ### Usage
 
